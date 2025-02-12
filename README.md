@@ -1,4 +1,4 @@
-# AdvancedObjectDetector - Documentação
+# GasBotDetector - Documentação
 
 ## Autor: Dr. Dheiver Francisco Santos
 
@@ -6,19 +6,19 @@
 
 ### Descrição do Projeto
 
-O **AdvancedObjectDetector** é uma classe Python avançada desenvolvida para realizar detecção de objetos em imagens e vídeos com alta precisão. Ele utiliza a API do Roboflow (`inference_sdk`) para realizar inferências baseadas em modelos pré-treinados ou personalizados. O sistema é modular, permitindo processamento de imagens individuais, vídeos e até mesmo integração com múltiplos modelos.
+O **GasBotDetector** é uma classe Python avançada desenvolvida para realizar detecção de botijões de gás em imagens e vídeos com alta precisão. Ele utiliza a API do Roboflow (`inference_sdk`) para realizar inferências baseadas em modelos pré-treinados ou personalizados. O sistema é modular, permitindo processamento de imagens individuais, vídeos e até mesmo integração com múltiplos modelos.
 
-Este projeto foi projetado para ser flexível, robusto e fácil de usar, com foco em aplicações práticas como monitoramento de objetos, análise de dados visuais e automação industrial.
+Este projeto foi projetado para ser flexível, robusto e fácil de usar, com foco em aplicações práticas como monitoramento de segurança, controle de estoque em depósitos e automação industrial relacionada ao manuseio de botijões de gás.
 
 ---
 
 ### Funcionalidades Principais
 
-1. **Detecção de Objetos em Imagens**:
+1. **Detecção de Botijões de Gás em Imagens**:
    - Processa imagens estáticas e salva os resultados (imagem anotada e metadados JSON).
    - Suporte para ajuste de limiar de confiança (`confidence_threshold`).
 
-2. **Detecção de Objetos em Vídeos**:
+2. **Detecção de Botijões de Gás em Vídeos**:
    - Processa vídeos frame a frame, aplicando detecção de objetos em tempo real.
    - Salva o vídeo processado com caixas delimitadoras e rótulos.
 
@@ -53,7 +53,7 @@ Além disso, certifique-se de ter acesso à API do Roboflow e um modelo treinado
 
 ### Estrutura do Código
 
-A classe `AdvancedObjectDetector` é composta pelos seguintes métodos principais:
+A classe `GasBotDetector` é composta pelos seguintes métodos principais:
 
 #### 1. **`__init__(self, api_key: str, api_url: str)`**
    - Inicializa o cliente de inferência com a chave de API e URL fornecidos.
@@ -95,7 +95,7 @@ Antes de executar o código, configure as variáveis abaixo no método `main()`:
 Execute o script diretamente:
 
 ```bash
-python advanced_object_detector.py
+python gas_bot_detector.py
 ```
 
 O programa irá processar a imagem ou vídeo especificado e exibir os resultados na tela.
@@ -116,7 +116,7 @@ O programa irá processar a imagem ou vídeo especificado e exibir os resultados
 ### Melhorias Futuras
 
 1. **Treinamento Personalizado**:
-   - Treinar modelos específicos para domínios de interesse pode aumentar ainda mais a precisão.
+   - Treinar modelos específicos para diferentes tipos de botijões de gás pode aumentar ainda mais a precisão.
 
 2. **Integração com GPUs**:
    - Execute o código em um ambiente com GPU para acelerar o processamento.
@@ -134,7 +134,7 @@ O programa irá processar a imagem ou vídeo especificado e exibir os resultados
 Para dúvidas, sugestões ou colaborações, entre em contato com o autor:
 
 - **Nome**: Dr. Dheiver Francisco Santos
-- **E-mail**: [dheiver.santos@gmail.com](mailto:dheiver.santos@gmail.com)
+- **E-mail**: [dheiver.santos@gmail.com](mailto:dheiver.santos@exemplo.com)
 
 ---
 
