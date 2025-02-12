@@ -134,7 +134,7 @@ O programa irá processar a imagem ou vídeo especificado e exibir os resultados
 Para dúvidas, sugestões ou colaborações, entre em contato com o autor:
 
 - **Nome**: Dr. Dheiver Francisco Santos
-- **E-mail**: [dheiver.santos@exemplo.com](mailto:dheiver.santos@gmail.com)
+- **E-mail**: [dheiver.santos@gmail.com](mailto:dheiver.santos@gmail.com)
 
 ---
 
